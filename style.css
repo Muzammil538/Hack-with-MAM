@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Supermercado+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    color: #fff;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+body {
+    padding: 10px 30px;
+}
+a {
+    text-decoration: none;
+}
+header {
+    padding: 5px 10px;
+}
+.head-title {
+    text-align: center;
+    padding: 5px 10px;
+    border-bottom: 0.5px solid #686868;
+    font-family: 'Supermercado One', cursive;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    gap: 25px;
+    border-bottom: .5px solid #686868;
+    transition-delay: .3s;
+}
+nav a:hover {
+    box-shadow: 0 2px 5px 0 rgba(255,255,255,.3);
+}
+.banner {
+    padding: 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    border-bottom: .5px solid #686868;
+    height: 500px;
+}
+.banner-text {
+    padding: 10px 15px;
+    max-width: 300px;
+}
+
+.Install {
+    padding: 20px 10px;
+}
+.Install h2 {
+    text-align: center;
+}
+.Install p {
+    padding: 5px;
+}
+.install-wrap {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    gap: 30px;
+}
+.installBox {
+    box-shadow: 5px 0px 5px 5px rgba(255,255,255,.4);
+    padding: 5px 10px;
+    border-radius: 10px;
+}
